@@ -35,7 +35,8 @@ public class Student
 		this.lastName = lastName;
 		this.email = email;
 	}
-
+	
+	// getters and setters
 	public int getId() {
 		return id;
 	}

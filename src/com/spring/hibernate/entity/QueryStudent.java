@@ -20,7 +20,7 @@ public class QueryStudent {
 		{
 			session.beginTransaction();
 			
-			List<Student> studentlist=session.createQuery("from Student where lastName='N'").list();
+			List<Student> studentlist=session.createQuery("from Student").list();
 			
 			for(Student s:studentlist)
 			{
