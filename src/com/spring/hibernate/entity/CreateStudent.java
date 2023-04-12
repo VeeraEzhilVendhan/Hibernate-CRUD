@@ -23,7 +23,7 @@ public class CreateStudent
 		{
 			//use session object to save java objects
 			
-//			//create a student object
+			//create a student object
 			Student student1=new Student("Varun","B","varun.b@outlook.com");
 			Student student2=new Student("Mukilan","D","mukilan.d@outlook.com");
 			
@@ -31,7 +31,7 @@ public class CreateStudent
 			//start a transaction
 			session.beginTransaction();
 			
-//			//save student object
+			//save student object
 			session.save(student1);
 			session.save(student2);
 			

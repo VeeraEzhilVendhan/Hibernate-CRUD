@@ -7,6 +7,8 @@ public class TestJDBC {
 	
 	public static void main(String[] args) 
 	{
+		//Testing JDBC Connection
+		
 		String JDBC_URL="jdbc:mysql://localhost:3306/hb_student_tracker?useSSL=false&serverTimezone=UTC";
 		String username="hbstudent";
 		String password="hbstudent";
